@@ -1,0 +1,1 @@
+INSERT INTO bank_accounts (num_bank_accounts, amount) VALUES ('01234567899876543210', '30000.25');
