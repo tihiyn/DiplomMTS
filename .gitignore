@@ -38,3 +38,6 @@ build/
 .DS_Store
 
 /Account/src/main/resources/application-local.properties
+/CustomerService/src/main/resources/application-local.properties
+/Aggregator/src/main/resources/application-local.properties
+/Notification/src/main/resources/application-local.properties

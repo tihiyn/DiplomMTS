@@ -15,6 +15,11 @@
     <packaging>pom</packaging>
     <modules>
         <module>Account</module>
+        <module>Deposit</module>
+        <module>CustomerService</module>
+        <module>Aggregator</module>
+        <module>EurekaServer</module>
+        <module>Notification</module>
     </modules>
 
     <properties>

@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Account" uuid="4bc50f17-496d-4c0d-9921-4cb5e1c27055">
+    <data-source source="LOCAL" name="Account" uuid="60c5cee7-1aa8-4a4b-9791-1f24a853d228">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <remarks>База данных для микросервиса Account</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/$username$</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Account</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Deposit" uuid="9a68a9af-3113-47e9-8d60-d6a22ad88abc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>База данных для микросервиса Deposit</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Deposit</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Customer" uuid="ad73241f-11db-41ff-8c82-c9955cacab46">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>База данных для микросервиса CustomerService</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Customer</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

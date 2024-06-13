@@ -15,8 +15,8 @@ import java.math.BigDecimal;
 public class Account {
     @Id
     @Column(name = "id_bank_accounts")
-    @SequenceGenerator(name = "id_generator", sequenceName = "bank_accounts_id_bank_accounts_seq", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_generator")
+    @SequenceGenerator(name = "id_bank_accounts_generator", sequenceName = "bank_accounts_id_bank_accounts_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_bank_accounts_generator")
     private int id;
 
     @Column(name = "num_bank_accounts")
